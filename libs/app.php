@@ -9,7 +9,7 @@ class App{
         $url= explode('/',$url);    
                
        if(empty($url[0] )){       
-        $url[0]='main';     // default controller 
+        $url[0]='dashboard';     // default controller 
        }            
         $archivoController = 'controllers/'.$url[0].'.php'; 
    

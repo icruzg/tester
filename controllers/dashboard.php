@@ -20,12 +20,12 @@
            $fecha1=$fecha1.' 00:00:00';
            $fecha2= $fecha2.' 23:59:59';
    
-           $datos =$this->model->getAll($fecha1, $fecha2);
+        //   $datos =$this->model->getAll($fecha1, $fecha2);
    
           // print_r($datos);
-           $this->view->titulopage="Dashboard";
-           $this->view->dt=$datos;
-           $this->view->render('dashboard/index');
+           $this->view->titulopage="HOME";
+         //  $this->view->dt=$datos;
+           $this->view->render('home/index');
    
            
        }

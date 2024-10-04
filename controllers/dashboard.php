@@ -25,11 +25,6 @@
           // print_r($datos);
            $this->view->titulopage="HOME";
          //  $this->view->dt=$datos;
-           $this->view->render('home/index');
-   
-           
-       }
-   
-   
-
+           $this->view->render('home/index');           
+       }   
     } 

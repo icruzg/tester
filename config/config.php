@@ -8,7 +8,7 @@
 //define ('CHARSET','utf8mb4');
 
 // ----------------------------------- Conexión local 
-define ('URL_BASE', 'http://localhost/X/tester');
+define ('URL_BASE', 'http://localhost/X/tester/');
 define ('HOST','localhost');
 define ('DB','test');
 define ('USER','root');

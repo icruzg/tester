@@ -10,7 +10,7 @@
 // ----------------------------------- Conexión local 
 define ('URL_BASE', 'http://localhost/X/tester/');
 define ('HOST','localhost');
-define ('DB','test');
+define ('DB','usus');
 define ('USER','root');
 define ('PASSWORD','');
 define ('CHARSET','utf8mb4');

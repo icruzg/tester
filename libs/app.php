@@ -1,6 +1,6 @@
 <?php
 
-   // require_once 'controllers/errores.php';
+    require_once 'controllers/errores.php';
   
 class App{
     function  __construct(){ 
@@ -37,7 +37,9 @@ class App{
             }
         }
         else{
+            // aquí controlamos recursos no encotnrados 404
             $controller = new Errores;
+           
         }
     } // fin del constructor
 } // fin de la clase App

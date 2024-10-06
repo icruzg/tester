@@ -40,11 +40,11 @@
                   <form role="form" action="<?php echo constant("URL_BASE")?>login" method="POST">
                     <label>usuario</label>
                     <div class="mb-3">
-                      <input type="email" class="form-control" name="user" id="user" placeholder="usuario" aria-label="usuario" aria-describedby="usuario-addon">
+                      <input type="text" class="form-control" name="user" id="user" placeholder="usuario" aria-label="usuario" aria-describedby="usuario-addon" required>
                     </div>
                     <label>Password</label>
                     <div class="mb-3">
-                      <input type="password" class="form-control" id="pass" name="pass" placeholder="Password" aria-label="Password" aria-describedby="password-addon">
+                      <input type="password" class="form-control" id="pass" name="pass" placeholder="Password" aria-label="Password" aria-describedby="password-addon" required> 
                     </div>
                     <div class="form-check form-switch">
                       <input class="form-check-input" type="checkbox" id="rememberMe" checked="">

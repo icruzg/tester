@@ -1,7 +1,0 @@
-<?php
-class Default_models{
-
-    public public function __construct(Type $var = null) {
-        $this->var = $var;
-    }
-}
